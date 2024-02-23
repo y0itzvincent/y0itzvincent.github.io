@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Fullstack Academy's Red Team Career Simulation!</title>
+    <meta name="description" content="Red Team Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/Vincent.png"
+              alt="Vincent's Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Vincent Chanthavong</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Fullstack Academy's Red Team Simulation</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            I will give an overview of what me and my team did in this simulation
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/png/Red Team.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                <h2>Introduction</h2>
+In this career simulation, you will use your newfound knowledge of vulnerability assessment and risk management to work through a problem. Using techniques learned in this bootcamp, you will examine and explain which tools and techniques to use for the best possible outcomes. Additionally, you will write a penetration testing report for your client that documents your findings.
+
+<h2>Learning Objectives</h2>
+Your deliverable for this career simulation should demonstrate an understanding of the following learning objectives. These objectives will be used for grading.
+
+<h2>Vulnerabilities Assessment</h2>
+Exhibit ethical hacking protocols to evaluate the security of and identify vulnerabilities in target systems, networks, or system infrastructure.
+Perform vulnerability scanning using a variety of tools.
+Use and configure tools to perform offensive security techniques.
+Use modules within Metasploit and explain their purpose.
+Establish Meterpreter sessions and explain how to use them.
+Search for privilege escalation opportunities through lateral movement.
+Apply the pass-the-hash technique to take advantage of flaws in NTLM authentication.
+<h2>Interpersonal Skills</h2>
+Develop constructive and cooperative working relationships.
+Identify problems using a group approach and develop solutions based on a group consensus.
+Apply active listening skills by using reflection, restatement, questioning, and clarification.
+Convey information clearly, correctly, and succinctly.
+Respond appropriately to positive and constructive feedback.
+Reach agreements that promote mutual goals and interests.
+<h2>Problem Solving</h2>
+Observe and evaluate the outcomes of implementing solutions to assess the need for alternative approaches and to identify lessons learned.
+Recall previously learned information that is relevant to the problem.
+Use a security mindset to identify assets and security goals, potential adversaries and threats, and potential weaknesses.
+Have sufficient inductive and deductive reasoning abilities to do the job successfully.
+Use man pages to learn about unfamiliar commands or switches.
+Search for online information and interact with websites and web applications.
+Critically review, analyze, synthesize, compare, and interpret information.
+<h2>Writing</h2>
+Communicate thoughts, ideas, and information, which might include technical material, in a logical, organized, and coherent manner.
+Tailor the content to the appropriate audience and purpose.
+Analyze penetration reports and explain their purpose.
+Scenario
+Fullstack Academy has reviewed your team’s report and is satisfied with the results. Because your team did such a great job, they would like a follow-up penetration test with an isolated portion of the network that was not part of the original engagement. However, this isolated portion of the network has a small number of systems, so it does not make sense for your entire team to be involved with this follow-up engagement. Instead, your team has assigned you to complete the penetration test for this isolated network on your own, as you have proven yourself ready to handle this kind of engagement.
+
+<h2>Rules of Engagement</h2>
+You are authorized only to scan and attack systems that reside on the same /20 subnet on which your Kali instance resides (e.g., if the IP of your Kali instance is 172.31.6.161, you are only authorized to scan and attack systems on the 172.31.6.0/20 subnet).
+No social engineering or client-side exploits are needed or permitted on this penetration test.
+You are allowed to work with your classmates on this penetration test.
+Everything you need to complete this test should be available to you on the systems already; there should be no need to download outside tools for this penetration test.
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Kali Linux</div>
+                <div class="skills__skill">Metasploit</div>
+                <div class="skills__skill">Nmap</div>
+                <div class="skills__skill">Command Line</div>
+                <div class="skills__skill">Secure Shell</div>
+                <div class="skills__skill">Windows</div><h2></h2>
+                <div class="skills__skill">Terminal</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See the PDF Here!</h3>
+              <a
+                href="./assets/Files/Career Sim 3.pdf"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >PenTest Report</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Vincent Chanthavong</h4>
+            <p class="main-footer__short-desc">
+              Thanks for visiting!
+            </p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
